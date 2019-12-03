@@ -1,32 +1,50 @@
-<!DOCTYPE html>
-<html lang="es">
+﻿<!--{encabezado}-->
+<html>
 <head>
-	<title>Ahorcado</title>
-	<meta charset="utf-8">
-	<script type="text/javascript" src="codigo.js"></script>
-    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
-    <link rel="stylesheet" type="text/css" href="style.css">
-	<meta name="viewport" content="width=device-width, maximum-scale=0.6, minimum-scale=0.2">
+  <title>Ahorcado</title>
+  <link href="estilo/estilo.css" rel="stylesheet" type="text/css" />
 </head>
+<body style="background-color: #0cf; color: #000; font-family: 'Comic Sans MS', cursive; font-style: italic;">
+
+<!--{encabezado}-->
+<!--{cuerpo}-->
 <body>
-	<div class='cuerpo'>
-	<h1 class="">Ahorcado</h1>
-	<div id="contenedor">
-		<ul id="puestas">
-			
-		</ul>
-			<span id="ganadas">0</span>
-			<span id="perdidas">0</span>
-		<canvas id='ahorcado' width = '400' height = '400' >
-		
-		</canvas>	
-	</div>
-	<form id="formulario">
-		<label for="letra"  class="text-info" id="texto">Elige una letra</label>
-		<input type='text' id='letra' autocomplete="off" class='form-control' maxlength='1'/>
-		<input type='submit' id='btn' class='btn btn-primary'value='ok'/>
 
-
-	</form>
-</body>
+  <header style="text-align:center">
+  <meta charset="utf-8">
+   <h1> Ahorcado </h1>
+  </header>
+  <br>
+  <br>
+<div>
+  <center>
+    <div style="display:inline-block" align="center"  >
+     <form method="get" action= "index.html">
+      <input type="submit" value="play"/>
+      </form>
+      <form method="get" action="indexopcionews.html">
+      <input type="submit" value="opciones"/>
+      </form>
+    </div>
+  </center>
+  </div>
+<!--{/cuerpo}-->
+<!--{pie}-->
+<div id="gif">
+  <div align="center"><img src="ezgif.com-gif-maker.gif"></div>
+</div>
+<br>
+<br>
+  <footer style="text-align:center;">
+   <div>
+    <p> Agustin Ramos Zuñiga</p>
+    <p> Eulogio Rene Galvez Segundo </p>
+    <p> Margarito Tepoz Coyotl </p>
+    <p> Nicolas Sanchez Cuellar </p>
+   </div>
+  </footer>
+  
+  
+ </body>
 </html>
+<!--{/pie}-->
