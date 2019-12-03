@@ -1,0 +1,13 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	text-align:center;
+	background-color: #333;
+	color:#FFF;
+}
+input[type="text"] {
+	border-radius: 15px;
+	background: linear-gradient(to right, #000, #FF3);
+	color:#FFF;	
+}
